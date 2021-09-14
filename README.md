@@ -1,6 +1,7 @@
 ## 从redux基础到react-redux逐步封装
 *从底层一步一步理解redux的使用*
-home ->home2 ->home2 逐步过度到 react-redux
+
+home ->home2 ->home3 逐步过度到 react-redux
 
 
 # Getting Started with Create React App
