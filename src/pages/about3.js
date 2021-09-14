@@ -1,11 +1,20 @@
 import React, {PureComponent} from 'react';
 // import {connect} from "../utils/connect";
 import {connect} from "react-redux";
+import axios from 'axios'
 import {
 	incrementAction,
 	decrementAction} from "../store/actionCreators";
 
 class About extends PureComponent {
+	componentDidMount() {
+		axios({
+			url: "",
+		}).then(res => {
+			console.log(res)
+		})
+	}
+	
 	render() {
 		const {counter, increment, decrement} = this.props;
 		return (
