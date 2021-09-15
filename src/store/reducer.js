@@ -1,5 +1,4 @@
 
-
 const defaultState = {
 	counter: 0
 }
